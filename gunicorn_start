@@ -1,0 +1,32 @@
+#!/bin/bash
+
+NAME="UGI"
+DJANGODIR=/var/www/ugi-website/venv
+SOCKFILE=/tmp/gunicorn.sock
+USER=www-data
+GROUP=www-data
+NUM_WORKERS=3
+DJANGO_SETTINGS_MODULE=UGI.settings
+DJANGO_WSGI_MODULE=UGI.wsgi
+
+echo "Starting $NAME as `whoami`"
+
+# Activate Virtual Environment
+source $DJANGODIR/bin/activate
+export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
+export PYTHONPATH=$DJANGODIR:$PYTHONPATH
+
+# Create the run directory
+RUNDIR=$(dirname $SOCKFILE)
+test -d $RUNDIR || mkdir -p $RUNDIR
+
+# Start Django Unicorn
+exec gunicorn ${DJANGO_WSGI_MODULE}:application \
+	--name $NAME \
+	--user=$USER \
+	--group=$GROUP \
+	--workers $NUM_WORKERS \
+	--bind=unix:$SOCKFILE \
+	--log-level=debug \
+	--log-file=- \
+	--reload
