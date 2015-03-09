@@ -1,0 +1,1742 @@
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Host: 52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Connection: keep-alive"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Cache-Control: max-age=0"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header done
+2015/03/09 15:13:09 [debug] 31618#0: *1 event timer del: 11: 1425914049360
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 using configuration "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http cl:-1 max:78643200
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 3
+2015/03/09 15:13:09 [debug] 31618#0: *1 post rewrite phase: 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 5
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 6
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 7
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 9
+2015/03/09 15:13:09 [debug] 31618#0: *1 post access phase: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 try files phase: 11
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script var: "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 trying to use file: "/" "/var/www/ugi-website/static/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 trying to use file: "@proxy_to_app" "/var/www/ugi-website/static@proxy_to_app"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "@proxy_to_app"
+2015/03/09 15:13:09 [debug] 31618#0: *1 using location: @proxy_to_app "/?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 3
+2015/03/09 15:13:09 [debug] 31618#0: *1 post rewrite phase: 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 5
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 6
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 7
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 9
+2015/03/09 15:13:09 [debug] 31618#0: *1 post access phase: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 try files phase: 11
+2015/03/09 15:13:09 [debug] 31618#0: *1 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:13:09 [debug] 31618#0: *1 http init upstream, client timer: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 epoll add event: fd:11 op:3 ev:80000005
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "X-Forwarded-For: "
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script var: "173.28.158.146"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "Host: "
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script var: "52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "Connection: close
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: ""
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: ""
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Cache-Control: max-age=0"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header:
+"GET / HTTP/1.0
+X-Forwarded-For: 173.28.158.146
+Host: 52.11.145.14
+Connection: close
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http cleanup add: 000000000095F550
+2015/03/09 15:13:09 [debug] 31618#0: *1 get rr peer, try: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 socket 15
+2015/03/09 15:13:09 [debug] 31618#0: *1 epoll add connection: fd:15 ev:80000005
+2015/03/09 15:13:09 [debug] 31618#0: *1 connect to unix:/tmp/gunicorn.sock, fd:15 #3
+2015/03/09 15:13:09 [crit] 31618#0: *1 connect() to unix:/tmp/gunicorn.sock failed (2: No such file or directory) while connecting to upstream, client: 173.28.158.146, server: 52.11.145.14, request: "GET / HTTP/1.1", upstream: "http://unix:/tmp/gunicorn.sock:/", host: "52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 reusable connection: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http upstream connect: -5
+2015/03/09 15:13:09 [debug] 31618#0: *1 http next upstream, 2
+2015/03/09 15:13:09 [debug] 31618#0: *1 free rr peer 1 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 finalize http upstream request: 502
+2015/03/09 15:13:09 [debug] 31618#0: *1 finalize http proxy request
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: 502, "/?" a:1, c:3
+2015/03/09 15:13:09 [debug] 31618#0: *1 http special response: 502, "/?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 internal redirect: "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "media"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "gitupdate"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 using configuration "=/500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http cl:-1 max:78643200
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 3
+2015/03/09 15:13:09 [debug] 31618#0: *1 post rewrite phase: 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 5
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 6
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 7
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 9
+2015/03/09 15:13:09 [debug] 31618#0: *1 post access phase: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 try files phase: 11
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 12
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 13
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 14
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 15
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 16
+2015/03/09 15:13:09 [debug] 31618#0: *1 http filename: "/var/www/ugi-website/static/500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 add cleanup: 00000000009554B8
+2015/03/09 15:13:09 [error] 31618#0: *1 open() "/var/www/ugi-website/static/500.html" failed (2: No such file or directory), client: 173.28.158.146, server: 52.11.145.14, request: "GET / HTTP/1.1", upstream: "http://unix:/tmp/gunicorn.sock/", host: "52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: 404, "/500.html?" a:1, c:4
+2015/03/09 15:13:09 [debug] 31618#0: *1 http special response: 404, "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 xslt filter header
+2015/03/09 15:13:09 [debug] 31618#0: *1 charset: "" > "utf-8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:13:09 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:1 f:0 0000000000955660, pos 0000000000955660, size: 209 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter: l:0 f:0 s:209
+2015/03/09 15:13:09 [debug] 31618#0: *1 http output filter "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http copy filter: "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 image filter
+2015/03/09 15:13:09 [debug] 31618#0: *1 xslt filter body
+2015/03/09 15:13:09 [debug] 31618#0: *1 http postpone filter "/500.html?" 00000000009558A0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http gzip filter
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 0000000000955C90:16384
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1 s:5936 a:8192 p:0000000000955C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1024 s:2 a:2048 p:0000000000957C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1024 s:2 a:2048 p:0000000000958490
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1024 s:2 a:2048 p:0000000000958C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:512 s:4 a:2048 p:0000000000959490
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in: 00000000009558E0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955748 ni:00000000006C6000 ai:116
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 00000000009CE090:4096
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate in: ni:00000000006C6000 no:00000000009CE090 ai:116 ao:4096 fl:0 redo:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate out: ni:00000000006C6074 no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955748 pos:00000000006C6000
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in: 00000000009558F0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955798 ni:00000000006C6740 ai:61
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate in: ni:00000000006C6740 no:00000000009CE090 ai:61 ao:4096 fl:0 redo:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate out: ni:00000000006C677D no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955798 pos:00000000006C6740
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in: 0000000000955900
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:00000000009557E8 ni:00000000006C6560 ai:402
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate in: ni:00000000006C6560 no:00000000009CE090 ai:402 ao:4096 fl:4 redo:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate out: ni:00000000006C66F2 no:00000000009CE143 ai:0 ao:3917 rc:1
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:00000000009557E8 pos:00000000006C6560
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 0000000000955C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 http chunk: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 http chunk: 187
+2015/03/09 15:13:09 [debug] 31618#0: *1 write old buf t:1 f:0 0000000000955660, pos 0000000000955660, size: 209 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:1 f:0 0000000000955A60, pos 0000000000955A60, size: 4 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000006C9820, size: 10 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 187 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BD8, size: 7 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter: l:1 f:1 s:417
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter limit 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 writev: 417
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter 0000000000000000
+2015/03/09 15:13:09 [debug] 31618#0: *1 http copy filter: 0 "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: 0, "/500.html?" a:1, c:4
+2015/03/09 15:13:09 [debug] 31618#0: *1 http request count:4 blk:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: -4, "/500.html?" a:1, c:3
+2015/03/09 15:13:09 [debug] 31618#0: *1 http request count:3 blk:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: -4, "/500.html?" a:1, c:2
+2015/03/09 15:13:09 [debug] 31618#0: *1 http request count:2 blk:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: -4, "/500.html?" a:1, c:1
+2015/03/09 15:13:09 [debug] 31618#0: *1 set http keepalive handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 http close request
+2015/03/09 15:13:09 [debug] 31618#0: *1 http log handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 00000000009CE090
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 0000000000000000
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 000000000095E570, unused: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 0000000000954C80, unused: 141
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 000000000095E160
+2015/03/09 15:13:09 [debug] 31618#0: *1 hc free: 0000000000000000 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 hc busy: 0000000000000000 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 tcp_nodelay
+2015/03/09 15:13:09 [debug] 31618#0: *1 reusable connection: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 event timer add: 11: 65000:1425914054360
+2015/03/09 15:13:09 [debug] 31618#0: *1 post event 00000000009A7140
+2015/03/09 15:13:09 [debug] 31618#0: *1 delete posted event 00000000009A7140
+2015/03/09 15:13:09 [debug] 31618#0: *1 http keepalive handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 000000000095E160:1024
+2015/03/09 15:13:09 [debug] 31618#0: *1 recv: fd:11 -1 of 1024
+2015/03/09 15:13:09 [debug] 31618#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 000000000095E160
+2015/03/09 15:13:09 [debug] 31618#0: *1 post event 00000000009BA950
+2015/03/09 15:13:09 [debug] 31618#0: *1 delete posted event 00000000009BA950
+2015/03/09 15:13:09 [debug] 31618#0: *1 http empty handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 post event 00000000009A7140
+2015/03/09 15:13:09 [debug] 31618#0: *1 post event 00000000009BA950
+2015/03/09 15:13:09 [debug] 31618#0: *1 delete posted event 00000000009BA950
+2015/03/09 15:13:09 [debug] 31618#0: *1 http empty handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 delete posted event 00000000009A7140
+2015/03/09 15:13:09 [debug] 31618#0: *1 http keepalive handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 000000000095E160:1024
+2015/03/09 15:13:09 [debug] 31618#0: *1 recv: fd:11 276 of 1024
+2015/03/09 15:13:09 [debug] 31618#0: *1 reusable connection: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 posix_memalign: 000000000095E570:4096 @16
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Host: 52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Connection: keep-alive"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Accept: */*"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http header done
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "media"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "gitupdate"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 using configuration "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http cl:-1 max:78643200
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 3
+2015/03/09 15:13:09 [debug] 31618#0: *1 post rewrite phase: 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 5
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 6
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 7
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 9
+2015/03/09 15:13:09 [debug] 31618#0: *1 post access phase: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 try files phase: 11
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script var: "/favicon.ico"
+2015/03/09 15:13:09 [debug] 31618#0: *1 trying to use file: "/favicon.ico" "/var/www/ugi-website/static/favicon.ico"
+2015/03/09 15:13:09 [debug] 31618#0: *1 trying to use file: "@proxy_to_app" "/var/www/ugi-website/static@proxy_to_app"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "@proxy_to_app"
+2015/03/09 15:13:09 [debug] 31618#0: *1 using location: @proxy_to_app "/favicon.ico?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 3
+2015/03/09 15:13:09 [debug] 31618#0: *1 post rewrite phase: 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 5
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 6
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 7
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 9
+2015/03/09 15:13:09 [debug] 31618#0: *1 post access phase: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 try files phase: 11
+2015/03/09 15:13:09 [debug] 31618#0: *1 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:13:09 [debug] 31618#0: *1 http init upstream, client timer: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "X-Forwarded-For: "
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script var: "173.28.158.146"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "Host: "
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script var: "52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: "Connection: close
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: ""
+2015/03/09 15:13:09 [debug] 31618#0: *1 http script copy: ""
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Accept: */*"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http proxy header:
+"GET /favicon.ico HTTP/1.0
+X-Forwarded-For: 173.28.158.146
+Host: 52.11.145.14
+Connection: close
+Accept: */*
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http cleanup add: 000000000095F550
+2015/03/09 15:13:09 [debug] 31618#0: *1 get rr peer, try: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 socket 15
+2015/03/09 15:13:09 [debug] 31618#0: *1 epoll add connection: fd:15 ev:80000005
+2015/03/09 15:13:09 [debug] 31618#0: *1 connect to unix:/tmp/gunicorn.sock, fd:15 #4
+2015/03/09 15:13:09 [crit] 31618#0: *1 connect() to unix:/tmp/gunicorn.sock failed (2: No such file or directory) while connecting to upstream, client: 173.28.158.146, server: 52.11.145.14, request: "GET /favicon.ico HTTP/1.1", upstream: "http://unix:/tmp/gunicorn.sock:/favicon.ico", host: "52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 reusable connection: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http upstream connect: -5
+2015/03/09 15:13:09 [debug] 31618#0: *1 http next upstream, 2
+2015/03/09 15:13:09 [debug] 31618#0: *1 free rr peer 1 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 finalize http upstream request: 502
+2015/03/09 15:13:09 [debug] 31618#0: *1 finalize http proxy request
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: 502, "/favicon.ico?" a:1, c:3
+2015/03/09 15:13:09 [debug] 31618#0: *1 http special response: 502, "/favicon.ico?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 internal redirect: "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "/"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "media"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "gitupdate"
+2015/03/09 15:13:09 [debug] 31618#0: *1 test location: "500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 using configuration "=/500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http cl:-1 max:78643200
+2015/03/09 15:13:09 [debug] 31618#0: *1 rewrite phase: 3
+2015/03/09 15:13:09 [debug] 31618#0: *1 post rewrite phase: 4
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 5
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 6
+2015/03/09 15:13:09 [debug] 31618#0: *1 generic phase: 7
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 access phase: 9
+2015/03/09 15:13:09 [debug] 31618#0: *1 post access phase: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 try files phase: 11
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 12
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 13
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 14
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 15
+2015/03/09 15:13:09 [debug] 31618#0: *1 content phase: 16
+2015/03/09 15:13:09 [debug] 31618#0: *1 http filename: "/var/www/ugi-website/static/500.html"
+2015/03/09 15:13:09 [debug] 31618#0: *1 add cleanup: 0000000000955468
+2015/03/09 15:13:09 [error] 31618#0: *1 open() "/var/www/ugi-website/static/500.html" failed (2: No such file or directory), client: 173.28.158.146, server: 52.11.145.14, request: "GET /favicon.ico HTTP/1.1", upstream: "http://unix:/tmp/gunicorn.sock/favicon.ico", host: "52.11.145.14"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: 404, "/500.html?" a:1, c:4
+2015/03/09 15:13:09 [debug] 31618#0: *1 http special response: 404, "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 xslt filter header
+2015/03/09 15:13:09 [debug] 31618#0: *1 charset: "" > "utf-8"
+2015/03/09 15:13:09 [debug] 31618#0: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:13:09 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:1 f:0 0000000000955610, pos 0000000000955610, size: 209 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter: l:0 f:0 s:209
+2015/03/09 15:13:09 [debug] 31618#0: *1 http output filter "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http copy filter: "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 image filter
+2015/03/09 15:13:09 [debug] 31618#0: *1 xslt filter body
+2015/03/09 15:13:09 [debug] 31618#0: *1 http postpone filter "/500.html?" 0000000000955850
+2015/03/09 15:13:09 [debug] 31618#0: *1 http gzip filter
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 0000000000955C90:16384
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1 s:5936 a:8192 p:0000000000955C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1024 s:2 a:2048 p:0000000000957C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1024 s:2 a:2048 p:0000000000958490
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:1024 s:2 a:2048 p:0000000000958C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip alloc: n:512 s:4 a:2048 p:0000000000959490
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in: 0000000000955890
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:00000000009556F8 ni:00000000006C6000 ai:116
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 00000000009CE090:4096
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate in: ni:00000000006C6000 no:00000000009CE090 ai:116 ao:4096 fl:0 redo:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate out: ni:00000000006C6074 no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:00000000009556F8 pos:00000000006C6000
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in: 00000000009558A0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955748 ni:00000000006C6740 ai:61
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate in: ni:00000000006C6740 no:00000000009CE090 ai:61 ao:4096 fl:0 redo:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate out: ni:00000000006C677D no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955748 pos:00000000006C6740
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in: 00000000009558B0
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955798 ni:00000000006C6560 ai:402
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate in: ni:00000000006C6560 no:00000000009CE090 ai:402 ao:4096 fl:4 redo:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 deflate out: ni:00000000006C66F2 no:00000000009CE143 ai:0 ao:3917 rc:1
+2015/03/09 15:13:09 [debug] 31618#0: *1 gzip in_buf:0000000000955798 pos:00000000006C6560
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 0000000000955C90
+2015/03/09 15:13:09 [debug] 31618#0: *1 http chunk: 10
+2015/03/09 15:13:09 [debug] 31618#0: *1 http chunk: 187
+2015/03/09 15:13:09 [debug] 31618#0: *1 write old buf t:1 f:0 0000000000955610, pos 0000000000955610, size: 209 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:1 f:0 0000000000955A10, pos 0000000000955A10, size: 4 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000006C9820, size: 10 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 187 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BD8, size: 7 file: 0, size: 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter: l:1 f:1 s:417
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter limit 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 writev: 417
+2015/03/09 15:13:09 [debug] 31618#0: *1 http write filter 0000000000000000
+2015/03/09 15:13:09 [debug] 31618#0: *1 http copy filter: 0 "/500.html?"
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: 0, "/500.html?" a:1, c:4
+2015/03/09 15:13:09 [debug] 31618#0: *1 http request count:4 blk:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: -4, "/500.html?" a:1, c:3
+2015/03/09 15:13:09 [debug] 31618#0: *1 http request count:3 blk:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: -4, "/500.html?" a:1, c:2
+2015/03/09 15:13:09 [debug] 31618#0: *1 http request count:2 blk:0
+2015/03/09 15:13:09 [debug] 31618#0: *1 http finalize request: -4, "/500.html?" a:1, c:1
+2015/03/09 15:13:09 [debug] 31618#0: *1 set http keepalive handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 http close request
+2015/03/09 15:13:09 [debug] 31618#0: *1 http log handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 00000000009CE090
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 0000000000000000
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 000000000095E570, unused: 8
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 0000000000954C80, unused: 210
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 000000000095E160
+2015/03/09 15:13:09 [debug] 31618#0: *1 hc free: 0000000000000000 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 hc busy: 0000000000000000 0
+2015/03/09 15:13:09 [debug] 31618#0: *1 reusable connection: 1
+2015/03/09 15:13:09 [debug] 31618#0: *1 event timer add: 11: 65000:1425914054454
+2015/03/09 15:13:09 [debug] 31618#0: *1 post event 00000000009A7140
+2015/03/09 15:13:09 [debug] 31618#0: *1 delete posted event 00000000009A7140
+2015/03/09 15:13:09 [debug] 31618#0: *1 http keepalive handler
+2015/03/09 15:13:09 [debug] 31618#0: *1 malloc: 000000000095E160:1024
+2015/03/09 15:13:09 [debug] 31618#0: *1 recv: fd:11 -1 of 1024
+2015/03/09 15:13:09 [debug] 31618#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:13:09 [debug] 31618#0: *1 free: 000000000095E160
+2015/03/09 15:14:14 [debug] 31618#0: *1 event timer del: 11: 1425914054454
+2015/03/09 15:14:14 [debug] 31618#0: *1 http keepalive handler
+2015/03/09 15:14:14 [debug] 31618#0: *1 close http connection: 11
+2015/03/09 15:14:14 [debug] 31618#0: *1 reusable connection: 0
+2015/03/09 15:14:14 [debug] 31618#0: *1 free: 0000000000000000
+2015/03/09 15:14:14 [debug] 31618#0: *1 free: 0000000000950740, unused: 0
+2015/03/09 15:14:14 [debug] 31618#0: *1 free: 00000000009814D0, unused: 128
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "Host: 52.11.145.14"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "Connection: keep-alive"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "Cache-Control: max-age=0"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http header done
+2015/03/09 15:20:33 [debug] 31618#0: *5 event timer del: 11: 1425914493856
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 0
+2015/03/09 15:20:33 [debug] 31618#0: *5 rewrite phase: 1
+2015/03/09 15:20:33 [debug] 31618#0: *5 test location: "/"
+2015/03/09 15:20:33 [debug] 31618#0: *5 using configuration "/"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http cl:-1 max:78643200
+2015/03/09 15:20:33 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:33 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:33 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:33 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:33 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:33 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script var: "/"
+2015/03/09 15:20:33 [debug] 31618#0: *5 trying to use file: "/" "/var/www/ugi-website/static/"
+2015/03/09 15:20:33 [debug] 31618#0: *5 trying to use file: "@proxy_to_app" "/var/www/ugi-website/static@proxy_to_app"
+2015/03/09 15:20:33 [debug] 31618#0: *5 test location: "@proxy_to_app"
+2015/03/09 15:20:33 [debug] 31618#0: *5 using location: @proxy_to_app "/?"
+2015/03/09 15:20:33 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:33 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:33 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:33 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:33 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:33 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:33 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:33 [debug] 31618#0: *5 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:20:33 [debug] 31618#0: *5 http init upstream, client timer: 0
+2015/03/09 15:20:33 [debug] 31618#0: *5 epoll add event: fd:11 op:3 ev:80000005
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: "X-Forwarded-For: "
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script var: "173.28.158.146"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: "
+"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: "Host: "
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script var: "52.11.145.14"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: "
+"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: "Connection: close
+"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: ""
+2015/03/09 15:20:33 [debug] 31618#0: *5 http script copy: ""
+2015/03/09 15:20:33 [debug] 31618#0: *5 http proxy header: "Cache-Control: max-age=0"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http proxy header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http proxy header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http proxy header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http proxy header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http proxy header:
+"GET / HTTP/1.0
+X-Forwarded-For: 173.28.158.146
+Host: 52.11.145.14
+Connection: close
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http cleanup add: 000000000095F550
+2015/03/09 15:20:33 [debug] 31618#0: *5 get rr peer, try: 1
+2015/03/09 15:20:33 [debug] 31618#0: *5 socket 13
+2015/03/09 15:20:33 [debug] 31618#0: *5 epoll add connection: fd:13 ev:80000005
+2015/03/09 15:20:33 [debug] 31618#0: *5 connect to unix:/tmp/gunicorn.sock, fd:13 #6
+2015/03/09 15:20:33 [debug] 31618#0: *5 connected
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream connect: 0
+2015/03/09 15:20:33 [debug] 31618#0: *5 posix_memalign: 00000000009814D0:128 @16
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream send request
+2015/03/09 15:20:33 [debug] 31618#0: *5 chain writer buf fl:1 s:390
+2015/03/09 15:20:33 [debug] 31618#0: *5 chain writer in: 0000000000955490
+2015/03/09 15:20:33 [debug] 31618#0: *5 writev: 390
+2015/03/09 15:20:33 [debug] 31618#0: *5 chain writer out: 0000000000000000
+2015/03/09 15:20:33 [debug] 31618#0: *5 event timer add: 13: 60000:1425914493856
+2015/03/09 15:20:33 [debug] 31618#0: *5 http finalize request: -4, "/?" a:1, c:3
+2015/03/09 15:20:33 [debug] 31618#0: *5 http request count:3 blk:0
+2015/03/09 15:20:33 [debug] 31618#0: *5 http finalize request: -4, "/?" a:1, c:2
+2015/03/09 15:20:33 [debug] 31618#0: *5 http request count:2 blk:0
+2015/03/09 15:20:33 [debug] 31618#0: *5 post event 00000000009BA950
+2015/03/09 15:20:33 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:33 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream request: "/?"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:33 [debug] 31618#0: *5 delete posted event 00000000009BA950
+2015/03/09 15:20:33 [debug] 31618#0: *5 http run request: "/?"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream check client, write event:1, "/"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream recv(): -1 (11: Resource temporarily unavailable)
+2015/03/09 15:20:33 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:33 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream request: "/?"
+2015/03/09 15:20:33 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream request: "/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream request: "/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream process header
+2015/03/09 15:20:34 [debug] 31618#0: *5 malloc: 0000000000955C90:4096
+2015/03/09 15:20:34 [debug] 31618#0: *5 recv: fd:13 192 of 4096
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy status 302 "302 FOUND"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Server: gunicorn/19.3.0"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Date: Mon, 09 Mar 2015 15:20:34 GMT"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Connection: close"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Vary: Cookie"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Location: http://52.11.145.14/en/"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Content-Type: text/html; charset=utf-8"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header done
+2015/03/09 15:20:34 [debug] 31618#0: *5 xslt filter header
+2015/03/09 15:20:34 [debug] 31618#0: *5 HTTP/1.1 302 FOUND
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:20:34 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Cookie
+Location: http://52.11.145.14/en/
+
+2015/03/09 15:20:34 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000955768, pos 0000000000955768, size: 230 file: 0, size: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 http write filter: l:0 f:0 s:230
+2015/03/09 15:20:34 [debug] 31618#0: *5 http cacheable: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy filter init s:302 h:0 c:0 l:-1
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe preread: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 readv: 1:3904
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe recv chain: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955D50, size: 0 file: 0, size: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe write downstream: 1
+2015/03/09 15:20:34 [debug] 31618#0: *5 pipe write downstream done
+2015/03/09 15:20:34 [debug] 31618#0: *5 event timer del: 13: 1425914493856
+2015/03/09 15:20:34 [debug] 31618#0: *5 event timer add: 13: 60000:1425914494802
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream exit: 0000000000000000
+2015/03/09 15:20:34 [debug] 31618#0: *5 finalize http upstream request: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 finalize http proxy request
+2015/03/09 15:20:34 [debug] 31618#0: *5 free rr peer 1 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 close http upstream connection: 13
+2015/03/09 15:20:34 [debug] 31618#0: *5 free: 00000000009814D0, unused: 48
+2015/03/09 15:20:34 [debug] 31618#0: *5 event timer del: 13: 1425914494802
+2015/03/09 15:20:34 [debug] 31618#0: *5 reusable connection: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream temp fd: -1
+2015/03/09 15:20:34 [debug] 31618#0: *5 http output filter "/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http copy filter: "/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:34 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:34 [debug] 31618#0: *5 http postpone filter "/?" 00007FFF453A4660
+2015/03/09 15:20:34 [debug] 31618#0: *5 http chunk: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000955768, pos 0000000000955768, size: 230 file: 0, size: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BDA, size: 5 file: 0, size: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 http write filter: l:1 f:0 s:235
+2015/03/09 15:20:34 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 writev: 235
+2015/03/09 15:20:34 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:34 [debug] 31618#0: *5 http copy filter: 0 "/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http finalize request: 0, "/?" a:1, c:1
+2015/03/09 15:20:34 [debug] 31618#0: *5 set http keepalive handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 http close request
+2015/03/09 15:20:34 [debug] 31618#0: *5 http log handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 free: 0000000000955C90
+2015/03/09 15:20:34 [debug] 31618#0: *5 free: 000000000095E570, unused: 8
+2015/03/09 15:20:34 [debug] 31618#0: *5 free: 0000000000954C80, unused: 277
+2015/03/09 15:20:34 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:34 [debug] 31618#0: *5 hc free: 0000000000000000 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 hc busy: 0000000000000000 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 tcp_nodelay
+2015/03/09 15:20:34 [debug] 31618#0: *5 reusable connection: 1
+2015/03/09 15:20:34 [debug] 31618#0: *5 event timer add: 11: 65000:1425914499802
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:34 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:34 [debug] 31618#0: *5 recv: fd:11 -1 of 1024
+2015/03/09 15:20:34 [debug] 31618#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:34 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009BA950
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009BA950
+2015/03/09 15:20:34 [debug] 31618#0: *5 http empty handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:34 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:34 [debug] 31618#0: *5 recv: fd:11 365 of 1024
+2015/03/09 15:20:34 [debug] 31618#0: *5 reusable connection: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 posix_memalign: 000000000095E570:4096 @16
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "Host: 52.11.145.14"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "Connection: keep-alive"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "Cache-Control: max-age=0"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http header done
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 rewrite phase: 1
+2015/03/09 15:20:34 [debug] 31618#0: *5 test location: "/"
+2015/03/09 15:20:34 [debug] 31618#0: *5 test location: "media"
+2015/03/09 15:20:34 [debug] 31618#0: *5 test location: "gitupdate"
+2015/03/09 15:20:34 [debug] 31618#0: *5 test location: "500.html"
+2015/03/09 15:20:34 [debug] 31618#0: *5 using configuration "/"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http cl:-1 max:78643200
+2015/03/09 15:20:34 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:34 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:34 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:34 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:34 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:34 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script var: "/en/"
+2015/03/09 15:20:34 [debug] 31618#0: *5 trying to use file: "/en/" "/var/www/ugi-website/static/en/"
+2015/03/09 15:20:34 [debug] 31618#0: *5 trying to use file: "@proxy_to_app" "/var/www/ugi-website/static@proxy_to_app"
+2015/03/09 15:20:34 [debug] 31618#0: *5 test location: "@proxy_to_app"
+2015/03/09 15:20:34 [debug] 31618#0: *5 using location: @proxy_to_app "/en/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:34 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:34 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:34 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:34 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:34 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:34 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:34 [debug] 31618#0: *5 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:20:34 [debug] 31618#0: *5 http init upstream, client timer: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: "X-Forwarded-For: "
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script var: "173.28.158.146"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: "
+"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: "Host: "
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script var: "52.11.145.14"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: "
+"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: "Connection: close
+"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: ""
+2015/03/09 15:20:34 [debug] 31618#0: *5 http script copy: ""
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Cache-Control: max-age=0"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http proxy header:
+"GET /en/ HTTP/1.0
+X-Forwarded-For: 173.28.158.146
+Host: 52.11.145.14
+Connection: close
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+
+"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http cleanup add: 000000000095F558
+2015/03/09 15:20:34 [debug] 31618#0: *5 get rr peer, try: 1
+2015/03/09 15:20:34 [debug] 31618#0: *5 socket 13
+2015/03/09 15:20:34 [debug] 31618#0: *5 epoll add connection: fd:13 ev:80000005
+2015/03/09 15:20:34 [debug] 31618#0: *5 connect to unix:/tmp/gunicorn.sock, fd:13 #8
+2015/03/09 15:20:34 [debug] 31618#0: *5 connected
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream connect: 0
+2015/03/09 15:20:34 [debug] 31618#0: *5 posix_memalign: 00000000009814D0:128 @16
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream send request
+2015/03/09 15:20:34 [debug] 31618#0: *5 chain writer buf fl:1 s:393
+2015/03/09 15:20:34 [debug] 31618#0: *5 chain writer in: 0000000000955498
+2015/03/09 15:20:34 [debug] 31618#0: *5 writev: 393
+2015/03/09 15:20:34 [debug] 31618#0: *5 chain writer out: 0000000000000000
+2015/03/09 15:20:34 [debug] 31618#0: *5 event timer add: 13: 60000:1425914494888
+2015/03/09 15:20:34 [debug] 31618#0: *5 http finalize request: -4, "/en/?" a:1, c:3
+2015/03/09 15:20:34 [debug] 31618#0: *5 http request count:3 blk:0
+2015/03/09 15:20:34 [debug] 31618#0: *5 http finalize request: -4, "/en/?" a:1, c:2
+2015/03/09 15:20:34 [debug] 31618#0: *5 http request count:2 blk:0
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:34 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:34 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:34 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream process header
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 0000000000955C90:4096
+2015/03/09 15:20:35 [debug] 31618#0: *5 recv: fd:13 302 of 4096
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy status 200 "200 OK"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Server: gunicorn/19.3.0"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Date: Mon, 09 Mar 2015 15:20:35 GMT"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Connection: close"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Vary: Cookie"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "X-Frame-Options: SAMEORIGIN"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Content-Language: en"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Content-Type: text/html; charset=utf-8"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header: "Set-Cookie: django_language=en; expires=Tue, 08-Mar-2016 15:20:35 GMT; Max-Age=31536000; Path=/"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy header done
+2015/03/09 15:20:35 [debug] 31618#0: *5 xslt filter header
+2015/03/09 15:20:35 [debug] 31618#0: *5 HTTP/1.1 200 OK
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:20:35 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Set-Cookie: django_language=en; expires=Tue, 08-Mar-2016 15:20:35 GMT; Max-Age=31536000; Path=/
+Content-Encoding: gzip
+
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000955908, pos 0000000000955908, size: 364 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter: l:0 f:0 s:364
+2015/03/09 15:20:35 [debug] 31618#0: *5 http cacheable: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http proxy filter init s:200 h:0 c:0 l:-1
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe preread: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 readv: 1:3794
+2015/03/09 15:20:35 [debug] 31618#0: *5 readv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe recv chain: -2
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955DBE, size: 0 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer del: 13: 1425914494888
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer add: 13: 60000:1425914495854
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 readv: 1:3794
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe recv chain: 3171
+2015/03/09 15:20:35 [debug] 31618#0: *5 readv: 1:623
+2015/03/09 15:20:35 [debug] 31618#0: *5 readv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe recv chain: -2
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955DBE, size: 3171 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe write downstream: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe write: out:0000000000000000, f:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe read upstream: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955DBE, size: 3171 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer: 13, old: 1425914495854, new: 1425914495855
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream request: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 readv: 1:623
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe recv chain: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955DBE, size: 3171 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:35 [debug] 31618#0: *5 input buf #0
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe write downstream: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe write downstream flush in
+2015/03/09 15:20:35 [debug] 31618#0: *5 http output filter "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http copy filter: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:35 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:35 [debug] 31618#0: *5 http postpone filter "/en/?" 0000000000955BE0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http gzip filter
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 00000000009CE090:270336
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:1 s:5936 a:8192 p:00000000009CE090
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:32768 s:2 a:65536 p:00000000009D0090
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:32768 s:2 a:65536 p:00000000009E0090
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:32768 s:2 a:65536 p:00000000009F0090
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:16384 s:4 a:65536 p:0000000000A00090
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in: 0000000000955C68
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000955B90 ni:0000000000955DBE ai:3171
+2015/03/09 15:20:35 [debug] 31618#0: *5 posix_memalign: 0000000000956CA0:4096 @16
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 0000000000957CB0:4096
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate in: ni:0000000000955DBE no:0000000000957CB0 ai:3171 ao:4096 fl:0 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate out: ni:0000000000956A21 no:0000000000957CB0 ai:0 ao:4096 rc:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000955B90 pos:0000000000955DBE
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in: 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 http copy filter: 0 "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 pipe write downstream done
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer: 13, old: 1425914495854, new: 1425914495855
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream exit: 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 finalize http upstream request: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 finalize http proxy request
+2015/03/09 15:20:35 [debug] 31618#0: *5 free rr peer 1 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 close http upstream connection: 13
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 00000000009814D0, unused: 48
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer del: 13: 1425914495854
+2015/03/09 15:20:35 [debug] 31618#0: *5 reusable connection: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http upstream temp fd: -1
+2015/03/09 15:20:35 [debug] 31618#0: *5 http output filter "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http copy filter: "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:35 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:35 [debug] 31618#0: *5 http postpone filter "/en/?" 00007FFF453A46A0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http gzip filter
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in: 0000000000956D70
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000956D20 ni:0000000000000000 ai:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate in: ni:0000000000000000 no:0000000000957CB0 ai:0 ao:4096 fl:4 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate out: ni:0000000000000000 no:00000000009582CE ai:0 ao:2530 rc:1
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000956D20 pos:0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 00000000009CE090
+2015/03/09 15:20:35 [debug] 31618#0: *5 http chunk: 10
+2015/03/09 15:20:35 [debug] 31618#0: *5 http chunk: 1574
+2015/03/09 15:20:35 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000955908, pos 0000000000955908, size: 364 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000956E70, pos 0000000000956E70, size: 5 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000006C9820, size: 10 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 1574 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BD8, size: 7 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter: l:1 f:1 s:1960
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 writev: 1960
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 http copy filter: 0 "/en/?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http finalize request: 0, "/en/?" a:1, c:1
+2015/03/09 15:20:35 [debug] 31618#0: *5 set http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 http close request
+2015/03/09 15:20:35 [debug] 31618#0: *5 http log handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000957CB0
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000955C90
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 000000000095E570, unused: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000954C80, unused: 8
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000956CA0, unused: 3226
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:35 [debug] 31618#0: *5 hc free: 0000000000000000 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 hc busy: 0000000000000000 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 reusable connection: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer add: 11: 65000:1425914500855
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:35 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:35 [debug] 31618#0: *5 recv: fd:11 -1 of 1024
+2015/03/09 15:20:35 [debug] 31618#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Host: 52.11.145.14"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Connection: keep-alive"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Accept: image/webp,*/*;q=0.8"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Referer: http://52.11.145.14/en/"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header: "Cookie: django_language=en"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http header done
+2015/03/09 15:20:35 [debug] 31618#0: *7 event timer del: 15: 1425914493860
+2015/03/09 15:20:35 [debug] 31618#0: *7 generic phase: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 rewrite phase: 1
+2015/03/09 15:20:35 [debug] 31618#0: *7 test location: "/"
+2015/03/09 15:20:35 [debug] 31618#0: *7 test location: "media"
+2015/03/09 15:20:35 [debug] 31618#0: *7 test location: "static"
+2015/03/09 15:20:35 [debug] 31618#0: *7 using configuration "/static"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http cl:-1 max:78643200
+2015/03/09 15:20:35 [debug] 31618#0: *7 rewrite phase: 3
+2015/03/09 15:20:35 [debug] 31618#0: *7 post rewrite phase: 4
+2015/03/09 15:20:35 [debug] 31618#0: *7 generic phase: 5
+2015/03/09 15:20:35 [debug] 31618#0: *7 generic phase: 6
+2015/03/09 15:20:35 [debug] 31618#0: *7 generic phase: 7
+2015/03/09 15:20:35 [debug] 31618#0: *7 access phase: 8
+2015/03/09 15:20:35 [debug] 31618#0: *7 access phase: 9
+2015/03/09 15:20:35 [debug] 31618#0: *7 post access phase: 10
+2015/03/09 15:20:35 [debug] 31618#0: *7 try files phase: 11
+2015/03/09 15:20:35 [debug] 31618#0: *7 content phase: 12
+2015/03/09 15:20:35 [debug] 31618#0: *7 content phase: 13
+2015/03/09 15:20:35 [debug] 31618#0: *7 content phase: 14
+2015/03/09 15:20:35 [debug] 31618#0: *7 content phase: 15
+2015/03/09 15:20:35 [debug] 31618#0: *7 content phase: 16
+2015/03/09 15:20:35 [debug] 31618#0: *7 http filename: "/var/www/ugi-website/static/cms/img/logo-white.png"
+2015/03/09 15:20:35 [debug] 31618#0: *7 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:20:35 [debug] 31618#0: *7 add cleanup: 000000000095F558
+2015/03/09 15:20:35 [error] 31618#0: *7 open() "/var/www/ugi-website/static/cms/img/logo-white.png" failed (2: No such file or directory), client: 173.28.158.146, server: 52.11.145.14, request: "GET /static/cms/img/logo-white.png HTTP/1.1", host: "52.11.145.14", referrer: "http://52.11.145.14/en/"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http finalize request: 404, "/static/cms/img/logo-white.png?" a:1, c:1
+2015/03/09 15:20:35 [debug] 31618#0: *7 http special response: 404, "/static/cms/img/logo-white.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http set discard body
+2015/03/09 15:20:35 [debug] 31618#0: *7 xslt filter header
+2015/03/09 15:20:35 [debug] 31618#0: *7 charset: "" > "utf-8"
+2015/03/09 15:20:35 [debug] 31618#0: *7 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:20:35 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+
+2015/03/09 15:20:35 [debug] 31618#0: *7 write new buf t:1 f:0 0000000000954E30, pos 0000000000954E30, size: 209 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 http write filter: l:0 f:0 s:209
+2015/03/09 15:20:35 [debug] 31618#0: *7 http output filter "/static/cms/img/logo-white.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http copy filter: "/static/cms/img/logo-white.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *7 image filter
+2015/03/09 15:20:35 [debug] 31618#0: *7 xslt filter body
+2015/03/09 15:20:35 [debug] 31618#0: *7 http postpone filter "/static/cms/img/logo-white.png?" 0000000000955070
+2015/03/09 15:20:35 [debug] 31618#0: *7 http gzip filter
+2015/03/09 15:20:35 [debug] 31618#0: *7 malloc: 0000000000955C90:16384
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip alloc: n:1 s:5936 a:8192 p:0000000000955C90
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip alloc: n:1024 s:2 a:2048 p:0000000000957C90
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip alloc: n:1024 s:2 a:2048 p:0000000000958490
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip alloc: n:1024 s:2 a:2048 p:0000000000958C90
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip alloc: n:512 s:4 a:2048 p:0000000000959490
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in: 00000000009550B0
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in_buf:0000000000954F18 ni:00000000006C6000 ai:116
+2015/03/09 15:20:35 [debug] 31618#0: *7 malloc: 00000000009CE090:4096
+2015/03/09 15:20:35 [debug] 31618#0: *7 deflate in: ni:00000000006C6000 no:00000000009CE090 ai:116 ao:4096 fl:0 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *7 deflate out: ni:00000000006C6074 no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in_buf:0000000000954F18 pos:00000000006C6000
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in: 00000000009550C0
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in_buf:0000000000954F68 ni:00000000006C6740 ai:61
+2015/03/09 15:20:35 [debug] 31618#0: *7 deflate in: ni:00000000006C6740 no:00000000009CE090 ai:61 ao:4096 fl:0 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *7 deflate out: ni:00000000006C677D no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in_buf:0000000000954F68 pos:00000000006C6740
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in: 00000000009550D0
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in_buf:0000000000954FB8 ni:00000000006C6560 ai:402
+2015/03/09 15:20:35 [debug] 31618#0: *7 deflate in: ni:00000000006C6560 no:00000000009CE090 ai:402 ao:4096 fl:4 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *7 deflate out: ni:00000000006C66F2 no:00000000009CE143 ai:0 ao:3917 rc:1
+2015/03/09 15:20:35 [debug] 31618#0: *7 gzip in_buf:0000000000954FB8 pos:00000000006C6560
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 0000000000955C90
+2015/03/09 15:20:35 [debug] 31618#0: *7 http chunk: 10
+2015/03/09 15:20:35 [debug] 31618#0: *7 http chunk: 187
+2015/03/09 15:20:35 [debug] 31618#0: *7 write old buf t:1 f:0 0000000000954E30, pos 0000000000954E30, size: 209 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 write new buf t:1 f:0 0000000000955230, pos 0000000000955230, size: 4 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 write new buf t:0 f:0 0000000000000000, pos 00000000006C9820, size: 10 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 187 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BD8, size: 7 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 http write filter: l:1 f:1 s:417
+2015/03/09 15:20:35 [debug] 31618#0: *7 http write filter limit 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 writev: 417
+2015/03/09 15:20:35 [debug] 31618#0: *7 http write filter 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *7 http copy filter: 0 "/static/cms/img/logo-white.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *7 http finalize request: 0, "/static/cms/img/logo-white.png?" a:1, c:1
+2015/03/09 15:20:35 [debug] 31618#0: *7 set http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *7 http close request
+2015/03/09 15:20:35 [debug] 31618#0: *7 http log handler
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 00000000009CE090
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 000000000095E570, unused: 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 0000000000954C80, unused: 2186
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 000000000095E160
+2015/03/09 15:20:35 [debug] 31618#0: *7 hc free: 0000000000000000 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 hc busy: 0000000000000000 0
+2015/03/09 15:20:35 [debug] 31618#0: *7 tcp_nodelay
+2015/03/09 15:20:35 [debug] 31618#0: *7 reusable connection: 1
+2015/03/09 15:20:35 [debug] 31618#0: *7 event timer add: 15: 65000:1425914500947
+2015/03/09 15:20:35 [debug] 31618#0: *7 post event 00000000009A7210
+2015/03/09 15:20:35 [debug] 31618#0: *7 delete posted event 00000000009A7210
+2015/03/09 15:20:35 [debug] 31618#0: *7 http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *7 malloc: 000000000095E160:1024
+2015/03/09 15:20:35 [debug] 31618#0: *7 recv: fd:15 -1 of 1024
+2015/03/09 15:20:35 [debug] 31618#0: *7 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:35 [debug] 31618#0: *7 free: 000000000095E160
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009BA950
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009BA950
+2015/03/09 15:20:35 [debug] 31618#0: *5 http empty handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:35 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:35 [debug] 31618#0: *5 recv: fd:11 373 of 1024
+2015/03/09 15:20:35 [debug] 31618#0: *5 reusable connection: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 posix_memalign: 000000000095E570:4096 @16
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Host: 52.11.145.14"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Connection: keep-alive"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Accept: image/webp,*/*;q=0.8"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Referer: http://52.11.145.14/en/"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header: "Cookie: django_language=en"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http header done
+2015/03/09 15:20:35 [debug] 31618#0: *5 generic phase: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 rewrite phase: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 test location: "/"
+2015/03/09 15:20:35 [debug] 31618#0: *5 test location: "media"
+2015/03/09 15:20:35 [debug] 31618#0: *5 test location: "static"
+2015/03/09 15:20:35 [debug] 31618#0: *5 using configuration "/static"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http cl:-1 max:78643200
+2015/03/09 15:20:35 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:35 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:35 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:35 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:35 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:35 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:35 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:35 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:35 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:35 [debug] 31618#0: *5 content phase: 12
+2015/03/09 15:20:35 [debug] 31618#0: *5 content phase: 13
+2015/03/09 15:20:35 [debug] 31618#0: *5 content phase: 14
+2015/03/09 15:20:35 [debug] 31618#0: *5 content phase: 15
+2015/03/09 15:20:35 [debug] 31618#0: *5 content phase: 16
+2015/03/09 15:20:35 [debug] 31618#0: *5 http filename: "/var/www/ugi-website/static/cms/img/welcome-bg.png"
+2015/03/09 15:20:35 [debug] 31618#0: *5 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:20:35 [debug] 31618#0: *5 add cleanup: 000000000095F558
+2015/03/09 15:20:35 [error] 31618#0: *5 open() "/var/www/ugi-website/static/cms/img/welcome-bg.png" failed (2: No such file or directory), client: 173.28.158.146, server: 52.11.145.14, request: "GET /static/cms/img/welcome-bg.png HTTP/1.1", host: "52.11.145.14", referrer: "http://52.11.145.14/en/"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http finalize request: 404, "/static/cms/img/welcome-bg.png?" a:1, c:1
+2015/03/09 15:20:35 [debug] 31618#0: *5 http special response: 404, "/static/cms/img/welcome-bg.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http set discard body
+2015/03/09 15:20:35 [debug] 31618#0: *5 xslt filter header
+2015/03/09 15:20:35 [debug] 31618#0: *5 charset: "" > "utf-8"
+2015/03/09 15:20:35 [debug] 31618#0: *5 HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:20:35 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000954E30, pos 0000000000954E30, size: 209 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter: l:0 f:0 s:209
+2015/03/09 15:20:35 [debug] 31618#0: *5 http output filter "/static/cms/img/welcome-bg.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http copy filter: "/static/cms/img/welcome-bg.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:35 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:35 [debug] 31618#0: *5 http postpone filter "/static/cms/img/welcome-bg.png?" 0000000000955070
+2015/03/09 15:20:35 [debug] 31618#0: *5 http gzip filter
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 0000000000955C90:16384
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:1 s:5936 a:8192 p:0000000000955C90
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:1024 s:2 a:2048 p:0000000000957C90
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:1024 s:2 a:2048 p:0000000000958490
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:1024 s:2 a:2048 p:0000000000958C90
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip alloc: n:512 s:4 a:2048 p:0000000000959490
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in: 00000000009550B0
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000954F18 ni:00000000006C6000 ai:116
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 00000000009CE090:4096
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate in: ni:00000000006C6000 no:00000000009CE090 ai:116 ao:4096 fl:0 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate out: ni:00000000006C6074 no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000954F18 pos:00000000006C6000
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in: 00000000009550C0
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000954F68 ni:00000000006C6740 ai:61
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate in: ni:00000000006C6740 no:00000000009CE090 ai:61 ao:4096 fl:0 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate out: ni:00000000006C677D no:00000000009CE090 ai:0 ao:4096 rc:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000954F68 pos:00000000006C6740
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in: 00000000009550D0
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000954FB8 ni:00000000006C6560 ai:402
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate in: ni:00000000006C6560 no:00000000009CE090 ai:402 ao:4096 fl:4 redo:0
+2015/03/09 15:20:35 [debug] 31618#0: *5 deflate out: ni:00000000006C66F2 no:00000000009CE143 ai:0 ao:3917 rc:1
+2015/03/09 15:20:35 [debug] 31618#0: *5 gzip in_buf:0000000000954FB8 pos:00000000006C6560
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000955C90
+2015/03/09 15:20:35 [debug] 31618#0: *5 http chunk: 10
+2015/03/09 15:20:35 [debug] 31618#0: *5 http chunk: 187
+2015/03/09 15:20:35 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000954E30, pos 0000000000954E30, size: 209 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000955230, pos 0000000000955230, size: 4 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000006C9820, size: 10 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 187 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BD8, size: 7 file: 0, size: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter: l:1 f:1 s:417
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 writev: 417
+2015/03/09 15:20:35 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 http copy filter: 0 "/static/cms/img/welcome-bg.png?"
+2015/03/09 15:20:35 [debug] 31618#0: *5 http finalize request: 0, "/static/cms/img/welcome-bg.png?" a:1, c:1
+2015/03/09 15:20:35 [debug] 31618#0: *5 set http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 http close request
+2015/03/09 15:20:35 [debug] 31618#0: *5 http log handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 00000000009CE090
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000000000
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 000000000095E570, unused: 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 0000000000954C80, unused: 2186
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:35 [debug] 31618#0: *5 hc free: 0000000000000000 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 hc busy: 0000000000000000 0
+2015/03/09 15:20:35 [debug] 31618#0: *5 reusable connection: 1
+2015/03/09 15:20:35 [debug] 31618#0: *5 event timer add: 11: 65000:1425914500948
+2015/03/09 15:20:35 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:35 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:35 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:35 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:35 [debug] 31618#0: *5 recv: fd:11 -1 of 1024
+2015/03/09 15:20:35 [debug] 31618#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:35 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA950
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA950
+2015/03/09 15:20:40 [debug] 31618#0: *5 http empty handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:40 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:40 [debug] 31618#0: *5 recv: fd:11 403 of 1024
+2015/03/09 15:20:40 [debug] 31618#0: *5 reusable connection: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 posix_memalign: 000000000095E570:4096 @16
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Host: 52.11.145.14"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Connection: keep-alive"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Referer: http://52.11.145.14/en/"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header: "Cookie: django_language=en"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http header done
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 rewrite phase: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 test location: "/"
+2015/03/09 15:20:40 [debug] 31618#0: *5 using configuration "/"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http cl:-1 max:78643200
+2015/03/09 15:20:40 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:40 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:40 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:40 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:40 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:40 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script var: "/"
+2015/03/09 15:20:40 [debug] 31618#0: *5 trying to use file: "/" "/var/www/ugi-website/static/"
+2015/03/09 15:20:40 [debug] 31618#0: *5 trying to use file: "@proxy_to_app" "/var/www/ugi-website/static@proxy_to_app"
+2015/03/09 15:20:40 [debug] 31618#0: *5 test location: "@proxy_to_app"
+2015/03/09 15:20:40 [debug] 31618#0: *5 using location: @proxy_to_app "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 rewrite phase: 3
+2015/03/09 15:20:40 [debug] 31618#0: *5 post rewrite phase: 4
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 5
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 6
+2015/03/09 15:20:40 [debug] 31618#0: *5 generic phase: 7
+2015/03/09 15:20:40 [debug] 31618#0: *5 access phase: 8
+2015/03/09 15:20:40 [debug] 31618#0: *5 access phase: 9
+2015/03/09 15:20:40 [debug] 31618#0: *5 post access phase: 10
+2015/03/09 15:20:40 [debug] 31618#0: *5 try files phase: 11
+2015/03/09 15:20:40 [debug] 31618#0: *5 posix_memalign: 0000000000954C80:4096 @16
+2015/03/09 15:20:40 [debug] 31618#0: *5 http init upstream, client timer: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: "X-Forwarded-For: "
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script var: "173.28.158.146"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: "
+"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: "Host: "
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script var: "52.11.145.14"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: "
+"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: "Connection: close
+"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: ""
+2015/03/09 15:20:40 [debug] 31618#0: *5 http script copy: ""
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Referer: http://52.11.145.14/en/"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Accept-Encoding: gzip, deflate, sdch"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Accept-Language: en-US,en;q=0.8"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Cookie: django_language=en"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header:
+"GET /?edit HTTP/1.0
+X-Forwarded-For: 173.28.158.146
+Host: 52.11.145.14
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+Referer: http://52.11.145.14/en/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+Cookie: django_language=en
+
+"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http cleanup add: 00000000009554A0
+2015/03/09 15:20:40 [debug] 31618#0: *5 get rr peer, try: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 socket 13
+2015/03/09 15:20:40 [debug] 31618#0: *5 epoll add connection: fd:13 ev:80000005
+2015/03/09 15:20:40 [debug] 31618#0: *5 connect to unix:/tmp/gunicorn.sock, fd:13 #9
+2015/03/09 15:20:40 [debug] 31618#0: *5 connected
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream connect: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 posix_memalign: 00000000009814D0:128 @16
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream send request
+2015/03/09 15:20:40 [debug] 31618#0: *5 chain writer buf fl:1 s:431
+2015/03/09 15:20:40 [debug] 31618#0: *5 chain writer in: 000000000095F560
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 431
+2015/03/09 15:20:40 [debug] 31618#0: *5 chain writer out: 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer add: 13: 60000:1425914500302
+2015/03/09 15:20:40 [debug] 31618#0: *5 http finalize request: -4, "/?edit" a:1, c:3
+2015/03/09 15:20:40 [debug] 31618#0: *5 http request count:3 blk:0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http finalize request: -4, "/?edit" a:1, c:2
+2015/03/09 15:20:40 [debug] 31618#0: *5 http request count:2 blk:0
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream process header
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 0000000000955C90:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 recv: fd:13 226 of 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy status 500 "500 INTERNAL SERVER ERROR"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Server: gunicorn/19.3.0"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Date: Mon, 09 Mar 2015 15:20:40 GMT"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Connection: close"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Vary: Accept-Language, Cookie"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "X-Frame-Options: SAMEORIGIN"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Content-Language: en"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header: "Content-Type: text/html"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy header done
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter header
+2015/03/09 15:20:40 [debug] 31618#0: *5 charset: "" > "utf-8"
+2015/03/09 15:20:40 [debug] 31618#0: *5 HTTP/1.1 500 INTERNAL SERVER ERROR
+Server: nginx/1.4.6 (Ubuntu)
+Date: Mon, 09 Mar 2015 15:20:40 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Language, Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009557E0, pos 00000000009557E0, size: 279 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:0 s:279
+2015/03/09 15:20:40 [debug] 31618#0: *5 http cacheable: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http proxy filter init s:500 h:0 c:0 l:-1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe preread: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:3870
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: -2
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955D72, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 13, old: 1425914500302, new: 1425914500372
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:3870
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 3870
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #0
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 0000000000956CA0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #1
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 0000000000957CB0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #2
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 00000000009CE090:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 posix_memalign: 00000000009CF0A0:4096 @16
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #3
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 00000000009D00B0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #4
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 00000000009D10C0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #5
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 00000000009D20D0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #6
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 00000000009D30E0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #7
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 00000000009D40F0:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 4002
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 1:94
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: -2
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000955C90, pos 0000000000955D72, size: 3870 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000956CA0, pos 0000000000956CA0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 4002 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000955D72 3870
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000956CA0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000957CB0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:0000000000955A60, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF4B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 3870
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009557E0, pos 00000000009557E0, size: 279 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000955C90, pos 0000000000955D72, size: 3870 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000956CA0, pos 0000000000956CA0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8253
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8253
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000957CB0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009CE090 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D00B0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:0000000000955BE0, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF4E8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF610, pos 00000000009CF610, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF558, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D00B0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D10C0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D20D0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:0000000000955C70, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF5F0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D20D0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D30E0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:00000000009CF320, f:0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009558F8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF610, pos 00000000009CF610, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF558, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:0000000000000000, f:0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 4002 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000956CA0, pos 0000000000956CA0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 13, old: 1425914500302, new: 1425914500372
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 9:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 32862
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #8
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #9
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #10
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #11
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #12
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #13
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #14
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #15
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #16
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe downstream ready
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000956CA0, pos 0000000000956CA0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D40F0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D20D0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D30E0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:00000000009CF3E0, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF4C8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D30E0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D00B0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D10C0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:00000000009CF260, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF600
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF610, pos 00000000009CF610, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF558, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009D10C0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000957CB0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009CE090 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:0000000000955C50, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009558F8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 00000000009CE090 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000955C90 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000956CA0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:0000000000955B20, f:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF638
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF610, pos 00000000009CF610, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF558, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 8200
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write busy: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write buf ls:1 0000000000956CA0 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write: out:00000000009CF4B8, f:0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF4B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000956CA0, pos 0000000000956CA0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:1 s:4104
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 520
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 00000000009CF5E0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: -2 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 8:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 3682
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 8:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: -2
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf busy s:1 t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 3682 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf busy s:1 t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 3682 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 13, old: 1425914500302, new: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer add: 11: 60000:1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 8:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 20909
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #17
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #18
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #19
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #20
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #21
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #22
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 2:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: -2
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf busy s:1 t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 15 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf busy s:1 t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 15 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 13, old: 1425914500302, new: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 11, old: 1425914500373, new: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA9B8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream dummy handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A71A8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream process upstream
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe read upstream: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 readv: 2:4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe recv chain: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf busy s:1 t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf in   s:1 t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 15 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe buf free s:0 t:1 f:0 00000000009D20D0, pos 00000000009D20D0, size: 0 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe length: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 input buf #23
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009D20D0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream flush in
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF4E8
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 4096
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 15
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 15 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:0 f:0 s:28183
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 00000000009CF5E0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: -2 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 pipe write downstream done
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 13, old: 1425914500302, new: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 11, old: 1425914500373, new: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream exit: 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 finalize http upstream request: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 finalize http proxy request
+2015/03/09 15:20:40 [debug] 31618#0: *5 free rr peer 1 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 close http upstream connection: 13
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009814D0, unused: 48
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer del: 13: 1425914500302
+2015/03/09 15:20:40 [debug] 31618#0: *5 reusable connection: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http upstream temp fd: -1
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 00000000009CF858
+2015/03/09 15:20:40 [debug] 31618#0: *5 http chunk: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 15 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:0 f:0 0000000000000000, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write new buf t:0 f:0 0000000000000000, pos 00000000004A1BDA, size: 5 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:1 f:0 s:28188
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 00000000009CF5E0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: -2 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http finalize request: -2, "/?edit" a:1, c:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer: 11, old: 1425914500373, new: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009BA950
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009BA950
+2015/03/09 15:20:40 [debug] 31618#0: *5 http run request: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http writer handler: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http output filter "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 image filter
+2015/03/09 15:20:40 [debug] 31618#0: *5 xslt filter body
+2015/03/09 15:20:40 [debug] 31618#0: *5 http postpone filter "/?edit" 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000956CA0, pos 0000000000956EA2, size: 3582 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:0 f:0 00000000009CF610, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009CF558, pos 00000000009CF558, size: 6 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009CE090, pos 00000000009CE090, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000955C90, pos 0000000000955C90, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D10C0, pos 00000000009D10C0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 0000000000957CB0, pos 0000000000957CB0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D30E0, pos 00000000009D30E0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D00B0, pos 00000000009D00B0, size: 4096 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:1 f:0 00000000009D40F0, pos 00000000009D40F0, size: 15 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:0 f:0 0000000000000000, pos 00000000004A1BDD, size: 2 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 write old buf t:0 f:0 0000000000000000, pos 00000000004A1BDA, size: 5 file: 0, size: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter: l:1 f:0 s:28188
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter limit 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 writev: 28188
+2015/03/09 15:20:40 [debug] 31618#0: *5 http write filter 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 http copy filter: 0 "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http writer output filter: 0, "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http writer done: "/?edit"
+2015/03/09 15:20:40 [debug] 31618#0: *5 http finalize request: 0, "/?edit" a:1, c:1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer del: 11: 1425914500373
+2015/03/09 15:20:40 [debug] 31618#0: *5 set http keepalive handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 http close request
+2015/03/09 15:20:40 [debug] 31618#0: *5 http log handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009D40F0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009D30E0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 0000000000000000
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009D10C0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009D00B0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009CE090
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 0000000000957CB0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 0000000000956CA0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 0000000000955C90
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 000000000095E570, unused: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 0000000000954C80, unused: 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 00000000009CF0A0, unused: 1746
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 000000000095E160
+2015/03/09 15:20:40 [debug] 31618#0: *5 hc free: 0000000000000000 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 hc busy: 0000000000000000 0
+2015/03/09 15:20:40 [debug] 31618#0: *5 reusable connection: 1
+2015/03/09 15:20:40 [debug] 31618#0: *5 event timer add: 11: 65000:1425914505546
+2015/03/09 15:20:40 [debug] 31618#0: *5 post event 00000000009A7140
+2015/03/09 15:20:40 [debug] 31618#0: *5 delete posted event 00000000009A7140
+2015/03/09 15:20:40 [debug] 31618#0: *5 http keepalive handler
+2015/03/09 15:20:40 [debug] 31618#0: *5 malloc: 000000000095E160:1024
+2015/03/09 15:20:40 [debug] 31618#0: *5 recv: fd:11 -1 of 1024
+2015/03/09 15:20:40 [debug] 31618#0: *5 recv() not ready (11: Resource temporarily unavailable)
+2015/03/09 15:20:40 [debug] 31618#0: *5 free: 000000000095E160
