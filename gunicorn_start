@@ -1,13 +1,13 @@
 #!/bin/bash
 
-NAME="Sam"
-DJANGODIR=/var/www/sam-website/vEnv
+NAME="UGI"
+DJANGODIR=/var/www/ugi-website/venv
 SOCKFILE=/tmp/gunicorn.sock
 USER=www-data
 GROUP=www-data
 NUM_WORKERS=3
-DJANGO_SETTINGS_MODULE=Sam.settings
-DJANGO_WSGI_MODULE=Sam.wsgi
+DJANGO_SETTINGS_MODULE=UGI.settings
+DJANGO_WSGI_MODULE=UGI.wsgi
 
 echo "Starting $NAME as `whoami`"
 

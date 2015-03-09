@@ -5,21 +5,21 @@ upstream app {
 
 server {
 	listen 80;
-	server_name www.sam-dev.me;
+	server_name 52.11.145.14;
 	charset utf-8;
 	client_max_body_size 75M;
-	access_log /var/www/sam-website/logs/ngnix-access.log;
-	error_log  /var/www/sam-website/logs/ngnix-error.log debug;
-	root /var/www/website/static;
+	access_log /var/www/ugi-website/logs/ngnix-access.log;
+	error_log  /var/www/ugi-website/logs/ngnix-error.log debug;
+	root /var/www/ugi-website/static;
 	index index.html;
 
 	location /media {
-		alias /var/www/sam-website/media;
+		alias /var/www/ugi-website/media;
 	}
 
 	location /static {
 		autoindex on;
-		alias /var/www/sam-website/static;
+		alias /var/www/ugi-website/static;
 	}
 
 	location /gitupdate {
@@ -38,7 +38,7 @@ server {
 	}
 	error_page 500 502 503 504 /500.html;
 	location = /500.html {
-		root /var/www/sam-website/static/;
+		root /var/www/ugi-website/static/;
 	}
 }
 
