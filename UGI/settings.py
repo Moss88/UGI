@@ -6,8 +6,6 @@ from __future__ import absolute_import, unicode_literals
 
 # The following settings are already defined with default values in
 
-DEBUG = True
-
 # Make these unique, and don't share it with anybody.
 SECRET_KEY = "d2351e3b-1739-4438-bfe8-1b78939ffe251551a9a5-c3cf-4a6c-ac12-7efffc32aed1b9373743-c0cb-4263-868d-f1f055065ecb"
 NEVERCACHE_KEY = "5689cc85-996c-40d9-942a-653637aa684c46025ad2-fffb-4096-bb38-2a9be60bafa838dd4e3c-c16b-4289-8533-ff69a3fb7aa6"
@@ -102,7 +100,7 @@ MANAGERS = ADMINS
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ['www.usualidiots.com']
+ALLOWED_HOSTS = ['*']
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -348,11 +346,11 @@ OPTIONAL_APPS = (
 # Allow any settings to be defined in local_settings.py which should be
 # ignored in your version control system allowing for settings to be
 # defined per machine.
-try:
-    from local_settings import *
-except ImportError as e:
-    if "local_settings" not in str(e):
-        raise e
+#try:
+#    from local_settings import *
+#except ImportError as e:
+#    if "local_settings" not in str(e):
+#        raise e
 
 
 ####################

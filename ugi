@@ -10,16 +10,16 @@ server {
 	client_max_body_size 75M;
 	access_log /var/www/ugi-website/logs/ngnix-access.log;
 	error_log  /var/www/ugi-website/logs/ngnix-error.log debug;
-	root /var/www/ugi-website/static;
+	root /var/www/ugi-website/UGI/static;
 	index index.html;
 
 	location /media {
-		alias /var/www/ugi-website/media;
+		alias /var/www/ugi-website/UGI/media;
 	}
 
 	location /static {
 		autoindex on;
-		alias /var/www/ugi-website/static;
+		alias /var/www/ugi-website/UGI/static;
 	}
 
 	location /gitupdate {
@@ -38,7 +38,7 @@ server {
 	}
 	error_page 500 502 503 504 /500.html;
 	location = /500.html {
-		root /var/www/ugi-website/static/;
+		root /var/www/ugi-website/UGI/static/;
 	}
 }
 
