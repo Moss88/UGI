@@ -77,6 +77,7 @@ from __future__ import absolute_import, unicode_literals
 
 # If True, the south application will be automatically added to the
 # INSTALLED_APPS setting.
+
 USE_SOUTH = True
 
 
@@ -165,17 +166,17 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 DATABASES = {
     "default": {
         # Add "postgresql_psycopg2", "mysql", "sqlite3" or "oracle".
-        "ENGINE": "django.db.backends.",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
         # DB name or path to database file if using sqlite3.
-        "NAME": "",
+        "NAME": "mezzdb",
         # Not used with sqlite3.
-        "USER": "",
+        "USER": "usualidiot",
         # Not used with sqlite3.
-        "PASSWORD": "",
+        "PASSWORD": "3megLtXvdAGdmp9M7UaXaZEaYs8nCnY2",
         # Set to empty string for localhost. Not used with sqlite3.
-        "HOST": "",
+        "HOST": "mezzdb.cxneou5aekay.us-west-2.rds.amazonaws.com",
         # Set to empty string for default. Not used with sqlite3.
-        "PORT": "",
+        "PORT": "5432",
     }
 }
 
@@ -317,20 +318,20 @@ OPTIONAL_APPS = (
 # Check fabfile.py for defaults.
 
 # FABRIC = {
-#     "SSH_USER": "", # SSH username for host deploying to
-#     "HOSTS": ALLOWED_HOSTS[:1], # List of hosts to deploy to (eg, first host)
-#     "DOMAINS": ALLOWED_HOSTS, # Domains for public site
-#     "REPO_URL": "ssh://hg@bitbucket.org/user/project", # Project's repo URL
-#     "VIRTUALENV_HOME":  "", # Absolute remote path for virtualenvs
-#     "PROJECT_NAME": "", # Unique identifier for project
-#     "REQUIREMENTS_PATH": "requirements.txt", # Project's pip requirements
-#     "GUNICORN_PORT": 8000, # Port gunicorn will listen on
-#     "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
-#     "DB_PASS": "", # Live database password
-#     "ADMIN_PASS": "", # Live admin user password
-#     "SECRET_KEY": SECRET_KEY,
-#     "NEVERCACHE_KEY": NEVERCACHE_KEY,
-# }
+#    "SSH_USER": "", # SSH username for host deploying to
+#    "HOSTS": ALLOWED_HOSTS[:1], # List of hosts to deploy to (eg, first host)
+#    "DOMAINS": ALLOWED_HOSTS, # Domains for public site
+#    "REPO_URL": "ssh://hg@bitbucket.org/user/project", # Project's repo URL
+#    "VIRTUALENV_HOME":  "", # Absolute remote path for virtualenvs
+#    "PROJECT_NAME": "", # Unique identifier for project
+#    "REQUIREMENTS_PATH": "requirements.txt", # Project's pip requirements
+#    "GUNICORN_PORT": 8000, # Port gunicorn will listen on
+#    "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
+#    "DB_PASS": "", # Live database password
+#    "ADMIN_PASS": "", # Live admin user password
+#    "SECRET_KEY": SECRET_KEY,
+#    "NEVERCACHE_KEY": NEVERCACHE_KEY,
+#}
 
 
 ##################
